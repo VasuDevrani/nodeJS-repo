@@ -1,0 +1,10 @@
+NodeJs is an environment to run JS outside browser
+Chrome engine is used to compile code and is currently v8
+
+Full stack apps -> runs on node or server side and not engines
+NodeJS -> No access to browser apis, runs on server side, everything is logic based, does not depend on browser version, Runs all the time
+
+The evaluation of code is done using two features 'cli' and 'repl'
+
+- Using repl =>
+    simply enter 'node file_name' on command prompt and just start using
