@@ -5,7 +5,7 @@
 
 // __dirname - path of current directory
 // __filename - filename
-// require - function to use modules(CommonJs)
+// require - function to use modules   (CommonJs)
 // module - info about current module(file)
 // process - info about environment where the program is currently executed
 
