@@ -1,0 +1,5 @@
+This is the data to be written in file const call = (name) => {
+    console.log("hello", name);
+}
+
+module.exports = call;
