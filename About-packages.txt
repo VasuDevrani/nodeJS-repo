@@ -1,0 +1,6 @@
+This is file that will contain information about node packages
+
+1. Nodemon
+    this package is used to monitor the program and it automatically runs and restarts the program whenever there's a change
+
+2.

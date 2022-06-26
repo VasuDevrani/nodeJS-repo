@@ -7,6 +7,7 @@
 // command - npm i <PAckageName>
 
 // package.json - manifest file that conatains all *information* about package/project, to setup thi json file, we have three approaches
+// package.json is also important as it contains the depedencies needed to run project and we can just share it merely without sharing the whole large sized modules
 // manual app - create package.json and manully add all the properties
 // npm init and steps
 // npm init -y (automatic)

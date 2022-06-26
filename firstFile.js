@@ -4,6 +4,6 @@ if(count > 22){
     console.log("large number")
 }
 else{
-    console.log("smaller one")
+    console.log("small one")
 }
 console.log("my first app")

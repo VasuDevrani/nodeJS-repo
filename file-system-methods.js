@@ -18,6 +18,7 @@ writeFileSync(
 // writeFileSync('./newfileCreated.txt',`This is the data to be written in file ${fileData}`, {flag: 'a'});
 
 // 2.Asynchronous methods, includes the method and a callback promise-like function as an argument
+// using callbacks as below creates a callback hell so better ti use async await
 const { readFile, writeFile } = require("fs");
 
 readFile("./temporary-data/first.txt", "utf-8", (err, result) => {
@@ -49,3 +50,26 @@ readFile("./temporary-data/first.txt", "utf-8", (err, result) => {
     );
   });
 });
+
+
+//  or,
+
+
+readFile("./temporary-data/first.txt", "utf-8", (err, result) => {
+  if (err) {
+    console.log(err);
+    return;
+  }
+  const first = result;
+  console.log(first);
+});
+
+readFile("./temporary-data/second.txt", "utf-8", (err, result) => {
+  if (err) {
+    console.log(err);
+    return;
+  }
+  const first = result;
+  console.log(first);
+}
+)

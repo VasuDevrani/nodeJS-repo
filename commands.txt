@@ -1,0 +1,22 @@
+1. creating package.json
+    npm init and steps
+    npm init -y (automatic)
+
+2. installing a npm package normally
+    npm i <package>
+
+3. Forced install
+    npm i <package> --save --force
+
+4. installing dev (deployment) package
+    npm i <package> -D or --save-dev
+
+5. running node app
+    node filename
+
+6. uninstalling package
+    npm uninstall package_name
+
+7. installing globally (able to use in any project)
+    npm install -g package_name
+
