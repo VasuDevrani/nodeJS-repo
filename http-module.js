@@ -4,6 +4,7 @@ const http = require('http');
 const server = http.createServer((req,res) => {
     if(req.url === '/')
     {
+        // end method needs to be called at any cost as it signals the server that the msg is complete
         res.end('Welcome to Home Page')
     }
     else if(req.url === '/new')
